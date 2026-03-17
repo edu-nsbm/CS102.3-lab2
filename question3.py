@@ -3,9 +3,9 @@
 
 def main() -> None:
     operation: str = "sum"
-    total: str = "8"
+    total: int = 8
 
-    print(operation + " is " + total)  # Using string concatenation
+    print(operation + " is " + str(total))  # Using string concatenation
 
 
 if __name__ == "__main__":
